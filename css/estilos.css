@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CSS BS Inicia*/
+
+.navbar{
+    background-color: #15616d;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-brand img{
+    height: 45px;
+    margin: 10px;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.jumbotron{
+    background-color: #ffecd1 !important;
+    text-align: center;
+    border: 1px solid #000;
+}
+.jumbotron img{
+    height: 130px;
+}
+.jumbotron h1{
+    margin: 10px;
+}
+.btn-primary{
+    background-color: coral;
+    border: #000;
+    color: #000;
+    margin: 5px;
+    font-size: 18px;
+}
+.btn-primary:hover{
+    background-color: #15616d;
+    color: white;
+}
+.jumbotronLeft{
+    background-color: #ffecd1 !important;
+    border: 1px solid #000;
+}
+.jumbotronLeft p{
+    margin-top: 20px;
+}
+.nright img{
+    height: 130px;
+    width: auto;
+    margin: auto;
+    box-shadow: 0px 1px 10px rgb(129, 129, 129) ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 2%;
+}
+.nleft h2{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nright h3{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nleft p{
+    width: 80%;
+}
+.nright label{
+    margin: 10px;
+}
+.forms{
+    margin: 20px
+}
+#inputGroupSelect02{
+    color: #212529a9;
+}
+/* CSS BS Fin */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.fondo{
+    background-color: #ffecd1;
+    width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    padding: 20px;
+}
+.fondo img{
+    height: 120px;
+    width: auto;
+}
+header{
+    background-color: #15616d;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.barra a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.barra a:hover{
+    color: #000;
+}
+.font{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: #15616d;
+    text-shadow: 1px 1px 5px #8f5b2496;
+}
+.fontAlign{
+    font-size: 35px;
+    text-align: left;
+}
+.leftFont{
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+}
+.centerFont{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+.subtitulo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.text{
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    margin: 20px;
+}
+.inline img{
+    display: block;
+    height: 120px;
+    width: auto;
+    padding: 10px;
+}
+.border{
+    margin-top: 20px;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+.centrado{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 350px);
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fondo p{
+    margin: 20px;
+}
+.fondo form{
+    margin: 20px;
+}
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 120px);
+    padding: 20px;
+    grid-gap: 30px;
+}
+.items{
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    background-size: cover;
+    background-position: center;
+}
+.items:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.item:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.item1{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item2{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item3{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item4{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item5{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item6{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item7{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item8{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item9{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item10{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item11{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item12{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item13{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item14{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item15{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item16{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item17{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item18{
+    background-image: url(../multimedia/Ilustrativa\ Categorias.png);
+}
+.item{
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    background-size: cover;
+    background-position: center;
+}
+.it1{
+    background-image: url(../multimedia/Heir\ of\ Fire.jpg);
+}
+.it2{
+    background-image: url(../multimedia/Crescent\ City.jpg);
+}
+.it3{
+    background-image: url(../multimedia/Harry\ Potter.jpg);
+}
+.it4{
+    background-image: url(../multimedia/El\ libro\ de\ la\ selva.jpg);
+}
+.it5{
+    background-image: url(../multimedia/Red\ Queen.jpg);
+}
+.it6{
+    background-image: url(../multimedia/Iron\ Flame.jpg);
+}
+.it7{
+    background-image: url(../multimedia/Rage.jpg);
+}
+.it8{
+    background-image: url(../multimedia/The\ lost\ bookshop.jpg);
+}
+.it9{
+    background-image: url(../multimedia/likely\ suspects.jpg);
+}
+.it10{
+    background-image: url(../multimedia/Shore\ lodge.jpg);
+}
+.it11{
+    background-image: url(../multimedia/The\ founders.jpg);
+}
+.it12{
+    background-image: url(../multimedia/tuscan\ blook.jpg);
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 450px);
+    grid-gap: 10px;
+    margin-bottom: 40px;
+    background-color: white;
+    justify-items: center;
+}
+.card{
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgb(129, 129, 129) ;
+    cursor: default;
+    transition: all 400ms ease;
+    width: 250px;
+}
+.card img{
+    width: auto;
+    height: 120px;
+    margin-top: 20px;
+    margin: 25%;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    align-content: flex-end;
+    margin-top: auto;
+    margin-top: 20px;
+}
+footer ul li{
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+.logoFooter{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.redes a{
+    color: #ffecd1;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.scroll{
+    height: 40px;
+    height: 40px;
+    background-color: #f4ab45;
+    color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px rgba(21, 97, 109, 0.549);
+}
+
+/* Inician las media queries */
+
+@media only screen and (max-width: 1024px){
+    .centrado{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 400px);
+    }
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 450px);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .centrado{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 400px);
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 450px);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 768px){
+/* Menu hamburguesa */
+    .centrado{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 450px);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 120px);
+}
+}
+
+@media only screen and (max-width: 600px){
+    .centrado{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 450px);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, 120px);
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .centrado{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 450px);
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(18, 120px);
+    }
+    footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+    footer ul li{
+        display: inline-block;
+        justify-content: center;
+        list-style: none;
+        margin: 1px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .logoFooter{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .redes a{
+        color: #ffecd1;
+        text-decoration: none;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+}
