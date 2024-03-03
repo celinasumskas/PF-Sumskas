@@ -52,32 +52,42 @@
           </div>
         </nav>
         <!-- navbar fin -->
-    <div class="fondo">
+        <!-- Inicia form -->
+    <div class="fondo forms col-md-7">
+      <form>
         <h1 class="font"><strong>Bienvenido a Bookie</strong></h1>
-        <section class="subtitulo">
-            <form action="">
-                <label for="">Año de publicación</label>
-                <select name="Año de publicación" id="">
-                    <option value="">2000</option>
-                    <option value="">2001</option>
-                    <option value="">2002</option>
-                    <option value="">2003</option>
-                    <option value="">2004</option>
-                    <option value="">2005</option>
-                    <option value="">2006</option>
-                    <option value="">2007</option>
-                    <option value="">2008</option>
-                    <option value="">2009</option>
-                    <option value="">2010</option>
-                </select>
-                <label for="">Autor</label>
-                <input type="text">
-                <label for="">Nombre del libro</label>
-                <input type="text">
-                <input type="submit">
-            </form>
-        </section>
+        <div class="mb-3 mt-3">
+          <label for="text" class="form-label">Nombre del libro:</label>
+          <input type="text" class="form-control" id="text" placeholder="Ingrese el nombre del libro" name="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="text" class="form-label">Autor:</label>
+          <input type="text" class="form-control" id="text" placeholder="Ingrese el autor del libro" name="Autor">
+        </div>
+        <div class="mb-3 mt-3">
+            <select class="form-select" id="inputGroupSelect02">
+                <option selected>Año de publicación...</option>
+                <option value="1">1998</option>
+                <option value="2">1999</option>
+                <option value="3">2000</option>
+                <option value="4">2001</option>
+                <option value="5">2002</option>
+                <option value="6">2003</option>
+                <option value="7">2004</option>
+                <option value="8">2005</option>
+                <option value="9">2006</option>
+                <option value="10">2007</option>
+                <option value="11">2008</option>
+                <option value="12">2009</option>
+                <option value="13">2010</option>
+              </select>
+        </div>
+        <div class="button">
+          <input type="submit" class="btn btn-primary" value="Buscar">
+      </div>
+      </form>
     </div>
+        <!-- Fin form -->
     <section> <h2 class="leftFont">Explorar categorías</h2>
         <div class="galeria">
             <div class="item item1"></div>
@@ -100,30 +110,43 @@
             <div class="item item18"></div>
         </div>
     </section>
-    <footer>
-        <div class="logoFooter">
-            <strong>Bookie</strong>
-        </div>
-        <p>
-            <ul>
-                <li>Condiciones</li>
-                <li>Contacto</li>
-                <li>Nosotros</li>
-                <li>Ayuda</li>
-            </ul>
-        </p>
-        <div class="redes">
-            <a href="#">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="#">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-        </div>
-    </footer>
+    <footer class="text-center footer-style">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 footer-col">
+                  <h3><strong>Bookie</strong></h3>
+                  <p>
+                      Lorem Ipsum <br />
+                      Lorem ipsum dolor sit amet.
+                  </p>
+              </div>
+              <div class="col-md-4 footer-col">
+                <p>
+                  <ul>
+                      <li>Condiciones</li>
+                      <li>Contacto</li>
+                      <li>Nosotros</li>
+                      <li>Ayuda</li>
+                  </ul>
+              </p>
+              </div>
+              <div class="col-md-4 footer-col">
+                  <h3>Redes</h3>
+                  <ul class="redes">
+                      <a href="#">
+                          <i class="fa-brands fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fa-brands fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fa-brands fa-x-twitter"></i>
+                      </a>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
