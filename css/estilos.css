@@ -110,19 +110,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-    font-size: 20px;
-}
-.barra a{
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-.barra a:hover{
-    color: #000;
-}
 .font{
     font-size: 40px;
     text-align: center;
@@ -181,9 +168,6 @@ header{
     padding-right: 50px;
 }
 .fondo p{
-    margin: 20px;
-}
-.fondo form{
     margin: 20px;
 }
 .galeria{
